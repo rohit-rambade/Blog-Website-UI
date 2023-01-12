@@ -20,10 +20,10 @@
     <title>Blog Website</title>
     <link rel="stylesheet" href="./output/tailwind.css" />
   </head>
-  <body class="font-Poppins">
 
+  <body class="font-Poppins">
     <!-- Navbar Start -->
-    <nav class=" shadow-sm shadow-slate-300">
+    <nav class="shadow-sm shadow-slate-300">
       <div class="container mx-auto px-4 py-3 flex items-center">
         <a href="#">
           <img class="h-12" src="./images/logo.png" alt="logo" />
@@ -76,19 +76,98 @@
         </div>
         <!-- search box End -->
 
-
         <div class="ml-5">
-                <a href="#" class="flex items-center font-semibold text-md hover:text-blue-700 transition">
-                    <span class="mr-2">
-
-                            <i class="far fa-user"></i>
-                    </span>
-                    Login OR Register
-                </a>
+          <a
+            href="#"
+            class="flex items-center font-semibold text-md hover:text-blue-700 transition"
+          >
+            <span class="mr-2">
+              <i class="far fa-user"></i>
+            </span>
+            Login OR Register
+          </a>
         </div>
       </div>
     </nav>
 
     <!-- Navbar End -->
+
+    <!-- Main container -->
+    <div class="py-12 ">
+      <div class="container mx-auto px-4 flex">
+
+        <!-- Categories Section Start -->
+        <div class="w-3/12 ">
+          <div class="bg-white shadow-sm shadow-gray-400 rounded-xl p-4 mr-4">
+                <div class="text-center">
+
+                    <h3 class="text-xl font-semibold text-gray-700 ">Categories</h3>
+                </div>
+            <!-- Categories Sidebar -->
+            <div class="space-y-2 mt-4" >
+                    <a href="#" class="flex uppercase items-center font-semibold leading-4 hover:text-blue-700 transition">
+                        <span class="mr-2">
+
+                            <i class="far fa-folder-open"> </i>
+                        </span>
+                        <span>
+                            Web Development
+                        </span>
+                        <span class="ml-auto font-normal">(40)</span>
+                    </a>
+                    <a href="#" class="flex uppercase items-center font-semibold leading-4 hover:text-blue-700 transition">
+                        <span class="mr-2">
+
+                            <i class="far fa-folder-open"> </i>
+                        </span>
+                        <span>
+                           DevOps
+                        </span>
+                        <span class="ml-auto font-normal">(30)</span>
+                    </a>
+                    <a href="#" class="flex uppercase items-center font-semibold leading-4 hover:text-blue-700 transition">
+                        <span class="mr-2">
+
+                            <i class="far fa-folder-open"> </i>
+                        </span>
+                        <span>
+                           Cloud
+                        </span>
+                        <span class="ml-auto font-normal">(25)</span>
+                    </a>
+                    <a href="#" class="flex uppercase items-center font-semibold leading-4 hover:text-blue-700 transition">
+                        <span class="mr-2">
+
+                            <i class="far fa-folder-open"> </i>
+                        </span>
+                        <span>
+                           AI ML
+                        </span>
+                        <span class="ml-auto font-normal">(32)</span>
+                    </a>
+                    <a href="#" class="flex uppercase items-center font-semibold leading-4 hover:text-blue-700 transition">
+                        <span class="mr-2">
+
+                            <i class="far fa-folder-open"> </i>
+                        </span>
+                        <span>
+                            Android Development
+                        </span>
+                        <span class="ml-auto font-normal">(15)</span>
+                    </a>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Categories Section End -->
+        <div
+          class="w-6/12 bg-white shadow-sm shadow-gray-400 rounded-xl py-12 mr-4"
+        ></div>
+        <div
+          class="w-3/12 bg-white shadow-sm shadow-gray-400 rounded-xl py-12"
+        ></div>
+      </div>
+    </div>
   </body>
 </html>
